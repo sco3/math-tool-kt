@@ -8,7 +8,7 @@ class MathTool {
 	@Tool(description = "Get sum of two numbers.")
 	fun getSum(
 		@ToolArg(description = "First number") a: Int,
-		@ToolArg(description = "Second number") b: Int
+		@ToolArg(description = "Second number") b: Int,
 	): Integer {
 		return Integer(a + b)
 	}
