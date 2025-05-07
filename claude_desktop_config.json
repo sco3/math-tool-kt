@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "supergateway": {
+      "command": "npx",
+      "args": ["-y", "supergateway", "--sse", "http://localhost:8080/mcp/sse"]
+    }
+  }
+}
